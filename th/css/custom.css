@@ -1,0 +1,2528 @@
+@charset "utf-8";
+@import "http://fonts.googleapis.com/css?family=Noto+Sans:400,700";
+
+@font-face {
+	font-family:'SSTPro-Roman';
+	src: url('../../fonts/SSTPro-Roman_gdi.eot');
+	src: url('../../fonts/SSTPro-Roman_gdi-.eot#iefix') format('embedded-opentype'),
+		url('../../fonts/SSTPro-Roman_gdi.woff') format('woff'),
+		url('../../fonts/SSTPro-Roman_gdi.ttf') format('truetype'),
+		url('../../fonts/SSTPro-Roman_gdi.svg#SSTPro-Roman') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0-10FFFF;
+}
+
+body{
+	font-size:16px;
+	font-family: "Noto Sans","sans-serif";
+}
+
+.sst_font{	
+	font-family:'SSTPro-Roman';
+}
+
+.navbar-fixed-top {
+    padding: 4px;
+}
+
+.btn {
+    border-radius: 0px!important;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+.navbar-inverse {
+    background-color: #000000;
+}
+
+.navbar-nav > .active > a {
+    background-color: transparent!important;
+}
+
+.navbar-nav {
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+sup{
+	font-size:62%!important;
+	top:-.8em!important;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'SSTPro-Roman';
+    color: #ffffff!important;
+}
+
+a {
+    text-decoration: none!important;
+}
+
+a:hover {
+    text-decoration: none!important;
+}
+
+.color_white {
+    color: #ffffff!important;
+}
+
+.container-fluid {
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    z-index: 5;
+  /*  padding-top: 50px;*/
+}
+
+.section_space{
+	height:50px;
+}
+
+.series_padding{
+	padding-bottom:20px;
+}
+
+footer {
+    position: relative;
+    z-index: 5;
+}
+
+footer img {
+    cursor: pointer;
+}
+
+footer span {
+    float: left;
+    font-size: 11px;
+    color: #666666!important;
+    line-height: 18px;
+    padding-bottom: 10px;
+}
+
+footer p {
+    font-size: 11px!important;
+    line-height: 12px!important;
+}
+
+#stay_active {
+    background-color: #ffdd00;
+}
+
+.bg-1 {
+    background-color: #ffdd00!important;
+    color: #ffffff;
+}
+
+.bg-2 {
+    background-color: #ffffff;
+}
+
+.col-sm-offset-4 {
+    padding: 48px 0 48px 0;
+}
+
+.dropdown-menu {
+    font-size: 13px!important;
+    background-color: #ffffff!important;
+    border-radius: 0px!important;
+    min-width: 94px!important;
+    padding: 0!important;
+    border: 0px!important;
+}
+
+.dropdown-menu > li > a {
+    padding: 2px 10px!important;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.visible {
+    opacity: 1;
+}
+
+.landing_start_text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.play_button_wrapper {
+    position: absolute;
+    top: 640px;
+    width: 100%;
+}
+
+.start_here_1366 {
+    display: none;
+}
+
+.landing_bg_height {
+    height: 740px;
+}
+
+.hide_pc {
+    display: none;
+}
+
+.rounded_divier {
+    width: 65px;
+    height: 10px;
+    background-color: #e25a05;
+    border-radius: 4px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.more_details {
+    font-size: 19px;
+    color: #ffffff;
+    font-family: 'SSTPro-Roman';
+    padding-top: 20px;
+    text-align: center;
+    display: block;
+}
+
+.scroll img {
+    margin: 0 auto;
+    display: block;
+    margin-top: -10px;
+}
+
+.play_video {
+    width: 100%;
+    position: relative;
+}
+
+.play_video img {
+    max-width: 100%;
+    display: inline-block;
+}
+
+.play_video p {
+    font-size: 17px;
+    color: #ffffff;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.mobile_menu_wrapper {
+    display: none;
+    width: 100%;
+}
+
+#danny {
+    background-image: url('../../images/danny.jpg');
+    background-size: cover;
+    height: 352px;
+    min-width: 33.3%;
+    z-index: 400;
+    position: relative;
+   /* background-position: right;*/
+}
+
+#tarnthip {
+    background-image: url('../../images/tarnthip.jpg');
+    background-size: cover;
+    height: 352px;
+    min-width: 33.3%;
+    z-index: 400;
+    position: relative;
+   /* background-position: right;*/
+}
+
+#toto {
+    background-image: url('../../images/toto.jpg');
+    background-size: cover;
+    height: 352px;
+    min-width: 33.3%;
+    z-index: 400;
+    position: relative;
+   /* background-position: right;*/
+}
+
+#elvia_suryadi {
+    background-image: url('../../images/elvia_suryadi.jpg');
+    background-size: cover;
+    height: 352px;
+    min-width: 33.3%;
+    z-index: 400;
+    position: relative;
+ /*   background-position: right;*/
+}
+
+#lim_jia_jie {
+    background-image: url('../../images/lim_jia_jie.jpg');
+    background-size: cover;
+    height: 352px;
+    min-width: 33.3%;
+    z-index: 400;
+    position: relative;
+   /* background-position: right;*/
+}
+
+#yeong_wai_mun {
+    background-image: url('../../images/yeong_wai_mun.jpg');
+    background-size: cover;
+    height: 352px;
+    min-width: 33.3%;
+    z-index: 400;
+    position: relative;
+   /* background-position: right;*/
+}
+
+.plus_more_bio {
+    width: 280px;
+    height: 158px;
+    position: absolute;
+    right: 0px!important;
+    top: 100px;
+}
+
+.plus_more_bio img {
+    max-width: 100%;
+}
+
+.rounded_divier2 {
+    width: 65px;
+    height: 10px;
+    background-color: #e25a05;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.more_details2 {
+    font-size: 19px;
+    color: #000000;
+    font-family: 'SSTPro-Roman';
+    padding-top: 20px;
+	padding-bottom:12px;
+    text-align: center;
+    display: block;
+}
+
+.close_expand {
+    float: right;
+    position: absolute;
+    bottom: -252px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.start_running {
+    width: 161px;
+    height: 79px;
+    position: absolute;
+    top: 140px;
+    left: 136px;
+}
+
+.start_width {
+    margin: 0;
+    width: 286px!important;
+}
+
+.start_width img {
+    min-width: 282px!important;
+}
+
+.start_running_menu {
+    background: url('../../images/retangle.png') no-repeat;
+    width: 161px;
+    height: 79px;
+    cursor: pointer;
+}
+
+.start_running_menu:hover,
+.start_running_menu.selected {
+    background: url('../../images/retangle_hover.png') no-repeat;
+    width: 161px;
+    height: 79px;
+}
+
+.start_text {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'SST-Light';
+    font-style: italic!important;
+    text-align: left;
+    padding-left: 42px;
+    display: block;
+    padding-top: 20px;
+}
+
+.running_text {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'SSTPro-Bold';
+    text-align: left;
+    padding-left: 38px;
+    display: block;
+    line-height: 22px;
+	padding-top:22px;
+}
+
+.start_running_menu:hover .running_text{
+	color:#310101;
+}
+
+.start_running_menu:hover .start_text{
+	color:#310101;
+}
+
+.start_running_menu.selected .running_text{
+	color:#310101;
+}
+
+.start_running_menu.selected .start_text{
+	color:#310101;
+}
+
+.start_running_content {
+    background-image: url('../../images/start_running_bg.jpg');
+    padding-bottom: 40px;
+    margin-top: -1px;
+}
+
+.start_cycling_content {
+    background-image: url('../../images/start_cycling_bg.jpg');
+    padding-bottom: 40px;
+    margin-top: -1px;
+}
+
+.start_trekking_content {
+    background-image: url('../../images/start_trekking_bg.jpg');
+    padding-bottom: 40px;
+    margin-top: -1px;
+}
+
+.start_swimming_content {
+    background-image: url('../../images/start_swimming_bg.jpg');
+    padding-bottom: 40px;
+    margin-top: -1px;
+}
+
+.small_text {
+    font-size: 12px;
+    color: #300016;
+    padding: 40px 0 20px 0;
+    text-align: center;
+}
+
+.all_for_text {
+    font-size: 28px;
+    line-height: 30px;
+    font-family: 'SST-Light';
+    font-style: italic;
+    color: #300016;
+    margin-top: 50px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+
+.extra_mile_text {
+    font-size: 32px;
+    color: #300016;
+    font-family: 'SSTPro-Roman';
+    padding-left: 30px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.gray_color {
+    color: #300016!important;
+}
+
+.no_padding{
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.smartb_margin{
+	margin-left:-40px;
+	margin-top:167px;
+}
+
+.smartb_trainer_text{
+	font-size:12px;
+	color: #300016;
+	padding-top:24%;
+	padding-bottom:10px;
+	width:107px;
+}
+
+.sup_registered{
+	top:0px!important;
+	font-size:18px!important;
+}
+
+.sup_registered2{
+	top:-4px!important;
+	font-size:11px!important;
+}
+
+.space_top {
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.image_center {
+    margin: 0 auto;
+    display: block;
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+    width: 100%;
+    min-width: 180px;
+}
+
+.image_center:hover {
+    -webkit-transform: scale(1.08);
+    -moz-transform: scale(1.08);
+    -o-transform: scale(1.08);
+    transform: scale(1.08);
+}
+
+.image_center1 {
+    margin: 0 auto;
+    display: block;
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+    width: 100%;
+}
+
+.image_center1:hover {
+    -webkit-transform: scale(1.08);
+    -moz-transform: scale(1.08);
+    -o-transform: scale(1.08);
+    transform: scale(1.08);
+}
+
+.image_center2 {
+    margin: 0 auto;
+    display: block;
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+    width: 100%;
+    min-width: 150px;
+}
+
+.image_center2:hover {
+    -webkit-transform: scale(1.08);
+    -moz-transform: scale(1.08);
+    -o-transform: scale(1.08);
+    transform: scale(1.08);
+}
+
+.slide p {
+    color: #666666!important;
+    text-align: center;
+    font-size: 12px;
+    overflow-y: hiddeen;
+}
+
+.slide p.category {
+    color: #000000!important;
+    text-align: center;
+    font-size: 10px;
+    overflow-y: hiddeen;
+}
+
+.slide img {
+    width: 200px;
+}
+
+.divider3 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.divider4 {
+    float: right;
+    margin-top: -50px;
+    margin-right: -20px;
+    display: none;
+}
+
+.bio_name {
+    font-family: 'SSTPro-Roman';
+    font-weight: light!important;
+    font-size: 29px;
+    letter-spacing: 1.5px;
+    color: #ffffff;
+}
+
+.row_space {
+    padding-top: 20px;
+}
+
+.bio_name2 {}
+
+.bio_name2 img {
+    float: left;
+}
+
+.bio_name2 p {
+    float: left;
+    padding-left: 8px;
+    line-height: 32px;
+    /*color: #ffcc66!important;*/
+	color:#ffffff;
+    font-size: 16px;
+}
+
+.series2_bio_name {}
+
+.series2_bio_name img {
+    float: left;
+}
+
+.series2_bio_name p {
+    float: left;
+    padding-left: 8px;
+    line-height: 32px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.test {
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    opacity: 1;
+}
+
+.test:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    opacity: 0.8;
+}
+
+.content {
+    display: none;
+}
+
+.close_popup {
+    display: none;
+}
+
+.full_column_img {
+    width: 100%;
+}
+
+#padding_bottom {
+    padding-bottom: 100px;
+}
+
+.gear_text {
+    color: #ffffff;
+    padding: 20px 0 20px 0;
+    text-align: left;
+}
+
+.bio_product_text {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.product_img {
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+}
+
+.product_img:hover {
+    -webkit-transform: scale(1.08);
+    -moz-transform: scale(1.08);
+    -o-transform: scale(1.08);
+    transform: scale(1.08);
+}
+
+#jj_bio {
+    background-image: url('../../images/jj_bio_bg.jpg');
+    background-size: cover;
+}
+
+.jj_video {
+    background-image: url("../../images/jj_video.jpg");
+    background-size: cover;
+}
+
+.jj_video img {
+    padding: 20% 0;
+    display: inline-block;
+}
+
+.danny_video {
+    background-image: url("../../images/danny_video.jpg");
+    background-size: cover;
+}
+
+.danny_video img {
+    padding: 20% 0;
+    display: inline-block;
+}
+
+.thanthit_video {
+    background-image: url("../../images/thanthit_video.jpg");
+    background-size: cover;
+}
+
+.thanthit_video img {
+    padding: 20% 0;
+    display: inline-block;
+}
+
+.toto_video {
+    background-image: url("../../images/toto_video.jpg");
+    background-size: cover;
+
+}
+
+.toto_video img {
+    padding: 20% 0;
+    display: inline-block;
+}
+
+#waimun_bio {
+    background-image: url('../../images/waimun_bio_bg.jpg');
+    background-size: cover;
+}
+
+.waimun_video {
+    background-image: url("../../images/waimun_video.jpg");
+    background-size: cover;
+}
+
+.waimun_video img {
+    padding: 20% 0;
+    display: inline-block;
+}
+
+#elvia_bio {
+   /* background-image: url('../images/elvia_bio_bg_only.jpg');*/
+	/*background: url('../images/elvia_bio_bg.jpg') no-repeat 50% 50%;*/
+	background-image: url('../../images/elvia_bio_bg_only.jpg');
+    background-size: cover;
+}
+
+.elbia_video {
+    background-image: url("../../images/elvia_video.jpg");
+    background-size: cover;
+}
+
+.elbia_video img {
+    padding: 20% 0;
+    display: inline-block;
+}
+
+.white_color{
+	color:#ffffff!important;
+}
+
+#elvia_image {
+    background-image: url('../../images/elvia_image.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 700px;
+    height: 1100px;
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+}
+
+#danny_bio {
+ 
+	/*background: url('../images/danny_bio_bg.jpg') no-repeat 0% 30%; */
+	background: url('../../images/danny_bio_bg.jpg') no-repeat;
+	background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+	padding-bottom:150px;
+}
+
+#thanthip_bio {
+	/*background: url('../images/thanthip_bio_bg.jpg') no-repeat 0% 40%;*/
+	background: url('../../images/thanthip_bio_bg.jpg') no-repeat; 	
+	background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+	padding-bottom:150px;
+}
+
+#toto_bio {
+	/*background: url('../images/toto_bio_bg.jpg') no-repeat 0% 40%; */	
+	background: url('../../images/toto_bio_bg.jpg') no-repeat;
+	background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+	padding-bottom:150px;
+}
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.share_on {
+    float: left;
+    font-size: 14px;
+    color: #ffffff!important;
+    padding-top: 4px!important;
+}
+
+.background-video {
+    height: 800px;
+    overflow: hidden;
+    background-image: url('../../images/video_bg.jpg');
+}
+
+.placeholder-image {
+    height: 100%;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.loaded .ytplayer-container {
+    display: block;
+}
+
+.loaded .placeholder-image {
+    opacity: 0;
+}
+
+.placeholder-image2 {
+    opacity: 0;
+    z-index: 1;
+}
+
+.bordered {
+    border: 1px solid red;
+}
+
+.athlete_review_wrapper {
+    height: 500px;
+}
+
+#athlete_review {
+    padding: 0;
+    height: 100%;
+    padding-bottom: 300px;
+}
+
+.review_image {
+    text-align: center;
+}
+
+.review_copy {
+    padding: 50px 0px 10px 10px;
+    width: auto;
+}
+
+.review_copy p.product {
+    font-family: 'SST-Light';
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.review_copy p.product_bold {
+    font-family: 'SSTPro-Roman';
+    font-size: 40px;
+    line-height: 40px;
+}
+
+#jj_review_slide .sp-mask {
+    height: 400px!important;
+    /* custom height --> jj_review_slide */
+}
+
+
+#danny_review_slide .sp-mask {
+    height: 480px!important;
+    /* custom height --> jj_review_slide */
+}
+
+#thanthit_review_slide .sp-mask {
+    height: 480px!important;
+    /* custom height --> jj_review_slide */
+}
+
+#toto_review_slide .sp-mask {
+    height: 480px!important;
+    /* custom height --> jj_review_slide */
+}
+
+#elvia_review_slide .sp-mask {
+    height: 530px!important;
+    /* custom height --> elvia_review_slide */
+}
+
+#waimun_review_slide .sp-mask {
+    height: 530px!important;
+    /* custom height --> waimun_review_slide */
+}
+
+#waimun_review_slide .sp-buttons {
+    position: absolute!important;
+    width: 120px;
+    text-align: left;
+    padding-left: 10px;
+    top: 330px;
+    left: 85px;
+}
+
+
+/* -- accordion review desc -- */
+
+.accordion-section {
+    width: 100%;
+}
+
+.accordion-section2 {
+    width: 100%;
+}
+
+.accordion-section .accordion-head {
+    color: #fff;
+    position: relative;
+    width: 72px;
+    height: 21px;
+    cursor: pointer;
+    float: right;
+    margin: 20px 0 0 0;
+}
+
+.accordion-section2 .accordion-head {
+    color: #fff;
+    position: relative;
+    width: 72px;
+    height: 21px;
+    cursor: pointer;
+    float: right;
+    margin: 20px 0 0 0;
+}
+
+
+.accordion-section .accordion-head * {
+    cursor: pointer;
+}
+
+.accordion-section2 .accordion-head * {
+    cursor: pointer;
+}
+
+.accordion-section .accordion-head.inactived {
+    background-color: transparent;
+}
+
+.accordion-section2 .accordion-head.inactived {
+    background-color: transparent;
+}
+
+.accordion-section .accordion-body {
+    padding: 15px;
+    height: auto;
+    display: block;
+    width: 100%;
+    clear: both;
+   background: #fa6902;
+  /* background-image:url(../images/accordion_body_bg.png);*/
+   background-repeat:repeat;
+    text-align: left;
+    position: relative;
+}
+
+.accordion-section2 .accordion-body {
+    padding: 15px;
+    height: auto;
+    display: block;
+    width: 100%;
+    clear: both;
+	/*background:url(../images/series2-accordion-body-bg.png)!important;
+   background-repeat:repeat;*/
+   background-color:##ff5189;
+    text-align: left;
+    position: relative;
+}
+
+
+.accordion-body p.title {
+    padding: 10px 0;
+}
+
+.accordion-body p {
+    width: 100%;
+    font-size: 12px;
+    margin: 0;
+    line-height: 18px;
+    text-align: left;
+}
+
+
+.accordion_desc {
+    position: relative;
+	height:auto;
+	
+}
+
+.accordion-arrow {
+    width: 72px;
+    height: 22px;
+    margin: 0 auto;
+    background: url('../../images/cta_close.png') no-repeat;
+}
+
+.accordion-arrow2 {
+    width: 72px;
+    height: 22px;
+    margin: 0 auto;
+    background: url('../../images/series2_cta_close.png') no-repeat;
+}
+
+
+.accordion-head.open .accordion-arrow {
+    background: url('../../images/cta_readmore.png') no-repeat;
+}
+
+.accordion-head.open .accordion-arrow2 {
+    background: url('../../images/series2_cta_readmore.png') no-repeat;
+}
+
+.accordion-head.readmore .accordion-arrow {
+    background: url('../../images/cta_readmore.png') no-repeat;
+}
+
+.accordion-head.readmore .accordion-arrow2 {
+    background: url('../../images/seriese_cta_readmore.png') no-repeat;
+}
+
+
+.accordion-head.close {
+    opacity: 1;
+}
+
+
+
+
+/* -- end dropdown product desc -- */
+
+@media only screen and (min-width:1920px) {
+    .play_button_wrapper {
+        top: 960px!important;
+    }
+    .background-video {
+        height: 1100px!important;
+        overflow: hidden;
+    }
+    .big_screen_image {
+        position: absolute;
+        float: right;
+        right: 0;
+    }
+}
+
+@media only screen and (min-width:1900px) and (max-width:1920px) {
+    .play_button_wrapper {
+        top: 760px!important;
+    }
+    .background-video {
+        height: 900px!important;
+        overflow: hidden;
+    }
+    .big_screen_image {
+        position: absolute;
+        float: right;
+        right: 0;
+        top: -100px;
+    }
+}
+
+@media only screen and (min-width:1650px) and (max-width:1900px) {
+    .play_button_wrapper {
+        top: 750px!important;
+    }
+    .background-video {
+        height: 900px!important;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (min-width:1366px) {
+    #elvia_review_slide .sp-thumbnails-container {
+        position: absolute;
+        margin-top: -250px!important;
+        margin-left: 100px!important;
+    }
+    #waimun_review_slide .sp-thumbnails-container {
+        position: absolute;
+        margin-top: -250px!important;
+        margin-left: 100px!important;
+    }
+}
+
+@media only screen and (min-width:1366px) and (max-width:1560px) {
+    .big_screen_image {
+        position: absolute;
+        float: right;
+        right: 0;
+        top: -30px;
+    }
+}
+
+@media screen and (max-width:720px) {
+	
+	.small_device_center{
+		width:348px;
+		margin: 0 auto;
+		position:relative;
+	}
+	
+}
+
+@media screen and (max-width:1195px) {
+    .start_running {
+        width: 161px;
+        height: 79px;
+        position: absolute;
+        top: 141px;
+        left: 89px!important;
+    }
+    .start_width {
+        width: 24.6%!important;
+        overflow: hidden!important;
+    }
+    .start_width img {
+        width: 24.6%!important;
+    }
+    .landing_start_text {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .play_button_wrapper {
+        position: absolute;
+        top: 560px;
+        width: 100%;
+    }
+    .unbound_text {
+        position: absolute;
+        top: 430px;
+        left: 160px;
+        letter-spacing: 8px;
+    }
+    .background-video {
+        height: 640px!important;
+        overflow: hidden;
+    }
+    .placeholder-image {
+        height: 640px!important;
+    }
+}
+
+@media only screen and (min-width:1250px) and (max-width:1300px) {
+    .start_running {
+        left: 160px!important;
+    }
+    .start_width {
+        width: 24.6%!important;
+        overflow: hidden!important;
+    }
+    .start_width img {
+        width: 24.6%!important;
+    }
+    .landing_start_text {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .play_button_wrapper {
+        position: absolute;
+        width: 100%;
+    }
+    .unbound_text {
+        position: absolute;
+        top: 480px!important;
+        left: 160px;
+        letter-spacing: 8px;
+    }
+    .background-video {
+        height: 680px!important;
+        overflow: hidden;
+    }
+    .big_screen_image {
+        display: none!important;
+    }
+}
+
+@media only screen and (min-width:1250px) and (max-width:1366px) {
+    .start_here_1366 {
+        display: block;
+        margin-top: -50px;
+    }
+    .play_button_wrapper {
+        top: 530px!important;
+        width: 100%;
+    }
+    .navbar-nav {
+        margin-left: 18%!important;
+        margin-right: 12%!important;
+    }
+}
+
+@media only screen and (min-width:1366px) and (max-width:1700px) {
+    #elvia_image {
+        background-image: url('../../images/elvia_image.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 550px;
+        height: 1150px;
+        position: absolute;
+        bottom: 0;
+        left: 30px;
+    }
+}
+
+@media only screen and (min-width:1025px) and (max-width:1250px) {
+    .start_here_1366 {
+        display: block;
+        margin-top: 30px;
+        width: 550px;
+        right: 0;
+        float: right;
+    }
+    .play_button_wrapper {
+        top: 510px!important;
+        width: 100%;
+    }
+    .scroll {
+        margin-top: 20px;
+    }
+    .play_video img {
+        width: 70px!important;
+    }
+}
+
+@media only screen and (min-width:1200px) and (max-width:1366px) {
+    .sp-thumbnails-container {
+        position: absolute;
+        margin-top: -170px!important;
+        margin-left: 80px!important;
+    }
+    #elvia_review_slide .sp-thumbnails-container {
+        position: absolute;
+        margin-top: -290px!important;
+        margin-left: 85px!important;
+    }
+    #waimun_review_slide .sp-thumbnails-container {
+        position: absolute;
+        margin-top: -290px!important;
+        margin-left: 70px!important;
+    }
+	.running_text{
+		padding-left:23px!important;
+	}
+	.start_text{
+		padding-left:24px;
+	}
+}
+
+@media only screen and (min-width:992px) and (max-width:1200px) {
+    .review_copy {
+        padding: 50px 0px 10px 10px;
+        width: auto;
+    }
+    .review_copy p.product {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .review_copy p.product_bold {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .accordion-section .accordion-head {
+        width: 72px;
+        height: 21px;
+    }
+    .sp-thumbnails-container {
+        position: absolute;
+        margin-top: -300px!important;
+        margin-left: 60px!important;
+    }
+    #jj_review_slide .sp-mask {
+        height: 480px!important;
+    }
+    #elvia_review_slide .sp-mask {
+        height: 600px!important;
+    }
+    #waimun_review_slide .sp-mask {
+        height: 530px!important;
+    }
+    #waimun_review_slide .sp-thumbnails-container {
+        position: absolute;
+        margin-top: -330px!important;
+        margin-left: 50px!important;
+    }
+}
+
+@media only screen and (min-width:450px) and (max-width:991px) {
+    .review_image {
+        text-align: center;
+    }
+    .review_image img {
+        width: 220px!important;
+    }
+    .review_copy {
+        padding: 80px 0px 10px 10px;
+        width: auto;
+    }
+    .review_copy p.product {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .review_copy p.product_bold {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .accordion-section .accordion-head {
+        width: 72px;
+        height: 21px;
+    }
+    #jj_review_slide .sp-mask {
+        height: 600px!important;
+    }
+    #elvia_review_slide .sp-mask {
+        height: 740px!important;
+    }
+    #waimun_review_slide .sp-mask {
+        height: 620px!important;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1025px) {
+    .sp-buttons {
+        width: 120px;
+        top: 300px;
+        left: 70px;
+    }
+    #waimun_review_slide .sp-buttons {
+        width: 120px;
+        top: 290px;
+        left: 60px;
+    }
+}
+
+@media only screen and (min-width:450px) and (max-width:991px) {
+    .sp-thumbnails-container {
+        position: absolute!important;
+        margin: -350px auto!important;
+        left: 0!important;
+        right: 0!important;
+    }
+    #elvia_review_slide .sp-thumbnails-container {
+        position: absolute;
+        margin: -490px auto!important;
+    }
+    #waimun_review_slide .sp-thumbnails-container {
+        position: absolute;
+        margin: -370px auto!important;
+    }
+}
+
+@media only screen and (min-width:450px) and (max-width:768px) {
+    #waimun_review_slide .sp-buttons {
+        width: 120px;
+        top: 250px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+}
+
+@media only screen and (max-width:450px) {
+    .review_image {
+        text-align: center;
+    }
+    .review_image img {
+        width: 220px!important;
+    }
+    .accordion-section .accordion-head {
+        width: 72px;
+        height: 21px;
+    }
+    .review_copy {
+        padding: 80px 0px 10px 10px;
+        width: auto;
+    }
+    .review_copy p.product {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .review_copy p.product_bold {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    #jj_review_slide .sp-mask {
+        height: 690px!important;
+    }
+    #elvia_review_slide .sp-mask {
+        height: 880px!important;
+    }
+    #waimun_review_slide .sp-mask {
+        height: 740px!important;
+    }
+    #waimun_review_slide .sp-buttons {
+        width: 120px;
+        top: 250px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .sp-thumbnails-container {
+        position: absolute!important;
+        margin: -450px auto!important;
+        left: 0!important;
+        right: 0!important;
+    }
+    #elvia_review_slide .sp-thumbnails-container {
+        position: absolute;
+        margin: -630px auto!important;
+    }
+    #waimun_review_slide .sp-thumbnails-container {
+        position: absolute;
+        margin: -500px auto!important;
+    }
+}
+
+@media only screen and (min-width:1025px) and (max-width:1200px) {
+    .close_expand {
+        float: right;
+        position: absolute;
+        bottom: -268px;
+        right: 20px;
+        cursor: pointer;
+    }
+    .navbar-nav {
+        margin-left: 12%!important;
+        margin-right: 12%!important;
+    }
+    #elvia_review_slide .sp-thumbnails-container {
+        position: absolute;
+        margin-top: -410px!important;
+        margin-left: 60px!important;
+    }
+}
+
+@media only screen and (min-width:280px) and (max-width:1025px) {
+    #elvia_image {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:1025px) and (max-width:1366px) {
+    .landing_bg_height {
+        height: 500px!important;
+    }
+    .row_space {
+        padding-left: 100px;
+    }
+    #elvia_suryadi {
+        min-width: 33.33%!important;
+        height: 240px!important;
+    }
+    #lim_jia_jie {
+        min-width: 33.33%!important;
+        height: 240px!important;
+    }
+    #yeong_wai_mun {
+        min-width: 33.33%!important;
+        height: 240px!important;
+    }
+	#danny {
+        min-width: 33.33%!important;
+        height: 240px!important;
+    }
+	
+	#toto {
+        min-width: 33.33%!important;
+        height: 240px!important;
+    }
+	
+	#tarnthip {
+        min-width: 33.33%!important;
+        height: 240px!important;
+    }
+    #elvia_image {
+        background-image: url('../../images/elvia_image.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 550px;
+        height: 1150px;
+        position: absolute;
+        bottom: 0;
+        left: -20px;
+    }
+    .start_running_content {
+        background-image: none!important;
+        background-color: #fabe28;
+		/*margin-right:4px;*/
+    }
+    .start_cycling_content {
+        background-image: none!important;
+        background-color: #fabe28;
+		/* margin-right:4px; */
+    }
+    .start_trekking_content {
+        background-image: none!important;
+        background-color: #fabe28;
+		/* margin-right:4px; */
+    }
+    .start_swimming_content {
+        background-image: none!important;
+        background-color: #fabe28;
+		/* margin-right:4px; */
+    }
+    .landing_start_text {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .background-video {
+        height: 680px!important;
+        overflow: hidden;
+    }
+    .placeholder-image {
+        height: 680px!important;
+    }
+    .plus_more_bio {
+        top: 50px!important;
+    }
+    .big_screen_image {
+        display: none!important;
+    }
+    .play_video p {
+        font-size: 12px!important;
+    }
+}
+
+@media only screen and (min-width:990px) and (max-width:1024px) {
+    .navbar-nav {
+        margin-left: 12%!important;
+        margin-right: 2%!important;
+    }
+    .sp-thumbnails-container {
+        position: absolute;
+        margin-top: -250px!important;
+        margin-left: 80px!important;
+    }
+    #elvia_review_slide .sp-thumbnails-container {
+        position: absolute;
+        margin-top: -370px!important;
+        margin-left: 80px!important;
+    }
+
+}
+
+@media only screen and (min-width:768px) and (max-width:990px) {
+    .navbar-nav {
+        margin-left: 2%!important;
+        margin-right: 2%!important;
+    }
+	
+	.smartb_margin {
+    margin-left: -16px;
+	}
+	
+	.start_running_content{
+		margin-left:5px;
+	}
+	
+	.start_cycling_content{
+		margin-left:5px;
+	}
+	
+	.start_trekking_content{
+		margin-left:5px;
+	}
+	
+	.start_swimming_content{
+		margin-left:5px;
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    #landing {
+        background-image: url('../../images/1024_landing_bg.jpg') no-repeat!important;
+        background-position: center center!important;
+        background-color: #346d76;
+    }
+	
+	.small_device_center{
+		width:706px;
+		margin: 0 auto;
+		position:relative;
+	}
+    .landing_bg_height {
+        height: 640px!important;
+    }
+    .play_video img {
+        width: 50px!important;
+    }
+    .play_video p {
+        font-size: 13px!important;
+    }
+    #jj_bio {        
+        margin-top: 30px!important;
+		  background-image:none!important;
+		background-color:#f74602;
+	}
+    #padding_bottom {
+        padding-bottom: 20px!important;
+    }
+    #waimun_bio {        
+        margin-top: 30px!important;
+		background-image:none!important;
+		background-color:#f74602;
+    }
+    #elvia_bio {
+        margin-top: 30px!important;
+        background-image:none!important;
+		background-color:#f74602;
+    }
+	
+	#danny_bio {	 
+		margin-top: 30px!important;
+        background-image:none!important;
+		background-color:#d61238;
+	}
+
+	#thanthip_bio {
+		margin-top: 30px!important;
+        background-image:none!important;
+		background-color:#d61238;
+	}
+
+	#toto_bio {
+		margin-top: 30px!important;
+		background-image:none!important;
+		background-color:#d61238;
+	}
+    .start_running {
+        top: 193px;
+        left: 199px!important;
+    }
+    .start_width {
+        width: 360px!important;
+    }
+    .start_width img {
+        min-width: 350px!important;
+    }
+    #elvia_suryadi {
+        min-width: 33.3%!important;
+        height: 240px!important;
+        background-position: center left!important;
+    }
+    #elvia_suryadi img {
+        width: 140px;
+    }
+    #lim_jia_jie {
+        min-width: 33.3%!important;
+        height: 240px!important;
+        background-position: center left!important;
+    }
+    #lim_jia_jie img {
+        width: 140px;
+    }
+    #yeong_wai_mun {
+        min-width: 33.3%!important;
+        height: 240px!important;
+        background-position: center left!important;
+    }
+    #yeong_wai_mun img {
+        width: 140px;
+    }
+	
+	#danny {
+        min-width: 33.3%!important;
+        height: 240px!important;
+        background-position: center left!important;
+    }
+    #danny img {
+        width: 140px;
+    }
+	
+	#tarnthip {
+        min-width: 33.3%!important;
+        height: 240px!important;
+        background-position: center left!important;
+    }
+    #tarnthip img {
+        width: 140px;
+    }
+	
+	#toto {
+        min-width: 33.3%!important;
+        height: 240px!important;
+        background-position: center left!important;
+    }
+    #toto img {
+        width: 140px;
+    }
+	
+    .plus_more_bio {
+        width: 140px!important;
+        height: 80px!important;
+    }
+    .plus_more_bio img {
+        max-width: 100%;
+    }
+    #social_icons {
+        width: 100%!important;
+    }
+    .start_running_content {
+        background-image: none!important;
+        background-color: #fabe28;
+        width: 705px;
+        margin-top: -280px!important;
+        z-index: 1000;
+        position: relative;
+		margin:0 auto;
+    }
+    .start_cycling_content {
+        background-image: none!important;
+        background-color: #fabe28;
+        width: 705px;
+        margin-top: -280px!important;
+        z-index: 1000;
+        position: relative;
+		margin:0 auto;
+    }
+    .start_trekking_content {
+        background-image: none!important;
+        background-color: #fabe28;
+        width: 705px;
+		padding-right:20px;
+		margin:0 auto;
+    }
+    .start_swimming_content {
+        background-image: none!important;
+        background-color: #fabe28;
+        width: 705px;
+		 margin:0 auto;
+    }
+    .image_center {
+        min-width: 130px!important;
+    }
+	
+	.smartb_margin {
+		margin-left: -16px;
+	}
+    .landing_start_text {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+    }
+    .play_button_wrapper {
+        top: 430px!important;
+        z-index: 1000;
+    }
+    .background-video {
+        height: 520px!important;
+        overflow: hidden;
+    }
+    .placeholder-image {
+        height: 415px!important;
+    }
+    .share_on {
+        font-size: 11px!important;
+        padding-right: 0px!important;
+    }
+    .close_expand {
+        bottom: -356px;
+        right: 20px;
+        cursor: pointer;
+    }
+    .scroll {
+        display: none;
+    }
+    .landing_start_text .col-md-6 {
+        width: 500px!important;
+        float: right;
+        right: -25px;
+        position: absolute;
+    }
+    .start_here_1366 {
+        display: block!important;
+        margin-top: 0;
+        right: 0;
+        float: right;
+    }
+    .big_screen_image {
+        display: none!important;
+    }
+}
+
+@media only screen and (min-width:280px) and (max-width:590px) {
+    .play_video {
+        width: 100%!important;
+        text-align: center;
+    }
+    .play_video img {
+        width: 32px!important;
+        display: block!important;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width:280px) and (max-width:568px) {
+    .navbar-inverse {
+        display: none;
+    }
+    .rounded_divier2 {
+        margin-top: 30px!important;
+    }
+    #landing {
+        background: url('../../images/568_landing_bg.jpg') no-repeat!important;
+        padding: 0px!important;
+        margin-top: 0!important;
+    }
+    .mobile_menu_wrapper {
+        display: block;
+        position: relative;
+    }
+    .mobile_menu {
+        display: block!important;
+        width: 100%;
+        padding: 20px;
+        background-color: #000000;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 500;
+    }
+    .mobile_menu_header {
+        width: 100%;
+        background-color: #000000;
+        padding: 10px 0 10px 0;
+    }
+    .mobile_menu_header_logo {
+        display: inline-block;
+        cursor: pointer;
+    }
+    .mobile_menu_header_burger {
+        float: right;
+        cursor: pointer;
+    }
+    .menu_mobile_expand {
+        width: 100%;
+        min-height: 100%;
+        background-color: #e85129;
+        opacity: 0.9;
+        filter: alpha(opacity=90);
+        display: inline-block;
+        position: fixed;
+        left: 0;
+        top: 0px;
+        z-index: 100;
+        display: none;
+        top: 50px;
+    }
+    .menu_mobile_expand p {
+        font-size: 22px;
+        text-align: center;
+        font-family: 'SST-Light'!important;
+    }
+    .menu_mobile_expand a {
+        text-decoration: underline;
+        color: #ffffff;
+        font-family: 'SST-Light'!important;
+    }
+    .menu_mobile_expand img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: -14px;
+    }
+    .btn-group,
+    .btn-group-vertical {
+        display: block!important;
+        margin-top: 10px;
+    }
+    .btn-group-vertical>.btn,
+    .btn-group>.btn {
+        float: none;
+    }
+    .dropdown-menu {
+        left: 35%!important;
+    }
+    .landing_bg_height {
+        height: 320px;
+    }
+    .play_video {
+        width: 100%!important;
+        text-align: center;
+    }
+    .play_video img {
+        width: 32px!important;
+        display: block;
+        margin: 0 auto;
+    }
+    .play_video p {
+        font-size: 10px!important;
+    }
+    .start_width {
+        width: 100%!important;
+    }
+    .start_width img {
+        max-width: 100%!important;
+        min-width: 300px!important;
+    }
+    .start_running {
+        top: 154px!important;
+        left: 154px!important;
+    }
+    #elvia_suryadi {
+        min-width: 300px!important;
+        height: 240px!important;
+    }
+    #lim_jia_jie {
+        min-width: 300px!important;
+        height: 240px!important;
+    }
+    #yeong_wai_mun {
+        min-width: 300px!important;
+        height: 240px!important;
+    }
+	
+	#toto {
+        min-width: 300px!important;
+        height: 240px!important;
+    }
+    #tarnthip {
+        min-width: 300px!important;
+        height: 240px!important;
+    }
+    #danny {
+        min-width: 300px!important;
+        height: 240px!important;
+    }
+	
+	#danny_bio {	 
+		margin-top: 30px!important;
+        background-image:none!important;
+		background-color:#d61238;
+	}
+
+	#thanthip_bio {
+		margin-top: 30px!important;
+        background-image:none!important;
+		background-color:#d61238;
+	}
+
+	#toto_bio {
+		margin-top: 30px!important;
+		background-image:none!important;
+		background-color:#d61238;
+	}
+    .start_running_content {
+        z-index: 1000;
+        background-color: #fabe28;
+        position: absolute;
+        margin-top: -900px;
+        background-image: none!important;
+        right: 0px;
+    }
+    .start_cycling_content {
+        z-index: 1000;
+        background-color: #fabe28;
+        position: absolute;
+        margin-top: -1200px;
+        background-image: none!important;
+        margin-top: -900px;
+    }
+    .start_trekking_content {
+        z-index: 1000;
+        background-color: #fabe28;
+        position: absolute;
+        margin-top: -1200px;
+        background-image: none!important;
+        margin-top: -900px;
+    }
+    .start_swimming_content {
+        z-index: 1000;
+        background-color: #fabe28;
+        position: absolute;
+        margin-top: -1200px;
+        background-image: none!important;
+    }
+    .close_popup {
+        font-size: 36px;
+        color: #ffffff;
+        position: absolute;
+        top: -6px;
+        right: 10px;
+        font-weight: bold;
+        z-index: 1000;
+        display: block;
+        cursor: pointer;
+    }
+    .close_expand {
+        float: right;
+        position: absolute;
+        bottom: -40px;
+        right: 20px;
+        cursor: pointer;
+        width: 40px!important;
+    }
+    .all_for_text {
+        padding-right: 30px;
+    }
+	
+	.extra_mile_text{		
+		padding-right: 30px;
+	}
+	
+    .divider4 {
+        display: none;
+    }
+    .image_center {
+        max-width: 100px!important;
+    }
+    #jj_bio {
+        background-position: center right!important;
+        margin-top: 82px!important;
+    }
+    #waimun_bio {
+        background-position: center right!important;
+        margin-top: 82px!important;
+    }
+    #elvia_bio {
+        background-position: center right!important;
+        margin-top: 82px!important;
+    }
+	#danny {
+        background-position: center right!important;
+        margin-top: 20px!important;
+    }
+	#toto {
+        background-position: center right!important;
+        /* margin-top: 82px!important; */
+    }
+	
+	#thanthip {
+        background-position: center right!important;
+        margin-top: 82px!important;
+    }
+	.series2_bio_name img{
+		margin-left:20px;
+	}
+	
+    .top_space_iphone {
+       /*  margin-top: 20px; */
+    }
+	
+	.series2_bio_name {
+		padding-left:0px;
+	}
+    .bio_name2 {
+        /* margin-left: 50px!important; */
+    }
+    .bio_name2 p {
+        padding-right: 10px!important;
+    }
+    #padding_bottom {
+        padding-bottom: 60px!important;
+    }
+    footer span {
+        float: none!important;
+        padding-left: 0!important;
+        text-align: center!important;
+        margin-top: 10px!important;
+    }
+    footer a {
+        font-size: 10px!important;
+    }
+    .landing_start_text {
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+    .play_button_wrapper {
+        top: 390px!important;
+        z-index: 1000;
+    }
+    .background-video {
+        height: 490px!important;
+        margin-top: -20px;
+    }
+    .placeholder-image {
+        height: 640px!important;
+        opacity: 0;
+    }
+    .placeholder-image2 {
+        opacity: 1!important;
+        margin-top: 80px!important;
+        height: 460px!important;
+    }
+    .bio_product_text {
+        font-size: 12px!important;
+    }
+    .share_on {
+        font-size: 12px!important;
+        padding-right: 4px!important;
+    }
+    .container-fluid {
+        padding-top: 0!important;
+    }
+    .plus_more_bio {
+        top: 60px!important;
+        right: 15px!important;
+        position: absolute!important;
+    }
+    .start_here_1366 {
+        display: block!important;
+        margin-top: -23px;
+        width: 320px;
+        float: right;
+        right: 0;
+    }
+    .big_screen_image {
+        display: none!important;
+    }
+    .scroll {
+        display: none;
+        padding-bottom: 50px!important;
+    }
+	
+	.small_device_center{
+		width:305px!important;
+		margin:0 auto;
+	}
+	
+	.smartb_trainer_text{
+		padding-top:0px;
+	}
+	
+	.smartb_margin{
+		margin-left:60px;
+	}
+}
+
+@media only screen and (min-width: 367px) and (max-width: 480px) {
+		
+	.start_trekking_content, .start_running_content, .start_cycling_content, .start_swimming_content{
+		width: 100%!important;
+		padding: 10px 10px 30px 10px !important;
+		left:0px;
+		overflow:hidden;
+	}
+	
+	.smartb_margin{
+		margin-left:20px!important;
+	}
+	
+	.smartb_trainer_text{
+		padding-top:20px!important;
+	}
+	
+	.close_expand{
+		bottom:-30px!important;
+	}
+	.section_space{
+		padding-top:12px!important;
+	}
+	
+	.space_top {
+		padding-left: 10px;
+		padding-right: 16px;
+	}
+	
+}
+
+@media only screen and (min-width: 320px) and (max-width: 367px) {
+	
+	.small_device_center{
+		width:260px!important;
+		margin:0 auto;
+	}
+	
+	.start_width{
+		width:272px!important;
+	}
+	
+	.start_text{
+		padding-left:22px!important;
+		font-size:16px!important;
+	}
+	
+	.running_text{
+		padding-left:22px!important;
+		font-size:16px!important;
+	}
+	
+	.start_trekking_content, .start_running_content, .start_cycling_content, .start_swimming_content{
+		margin-left: -30px !important;
+		/* width: 320px !important; */
+		padding: 10px !important;
+	}
+	
+	.smartb_margin{
+		margin-left:94px!important;
+	}
+	
+	.smartb_trainer_text{
+		padding-top:20px!important;
+	}
+	
+	.close_expand{
+		bottom:-10px!important;
+	}
+	.section_space{
+		padding-top:12px!important;
+	}
+	
+	.space_top {
+		padding-left: 38px;
+		padding-right: 16px;
+	}
+	
+}
+
+@media only screen and (min-width: 569px) and (max-width: 767px) {
+    .scroll {
+        display: none;
+    }
+    .navbar-inverse {
+        display: none;
+    }
+    .mobile_menu_wrapper {
+        display: block;
+        position: relative;
+    }
+    .mobile_menu {
+        display: block!important;
+        width: 100%;
+        padding: 20px;
+        background-color: #000000;
+        z-index: 500;
+        top: 0px;
+        left: 0px;
+        position: fixed;
+    }
+    .mobile_menu_header {
+        width: 100%;
+        background-color: #000000;
+        padding: 10px 0 10px 0;
+    }
+    .mobile_menu_header_logo {
+        display: inline-block;
+        cursor: pointer;
+    }
+    .mobile_menu_header_burger {
+        float: right;
+        cursor: pointer;
+    }
+    .menu_mobile_expand {
+        width: 100%;
+        min-height: 100%;
+        background-color: #e85129;
+        opacity: 0.9;
+        filter: alpha(opacity=90);
+        position: fixed;
+        left: 0;
+        top: 70px;
+        z-index: 100;
+        display: none;
+    }
+    .menu_mobile_expand p {
+        font-size: 22px;
+        text-align: center;
+        font-family: 'SST-Light'!important;
+    }
+    .menu_mobile_expand a {
+        text-decoration: underline;
+        color: #ffffff;
+        font-family: 'SST-Light'!important;
+    }
+    .menu_mobile_expand img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: -14px;
+    }
+    .btn-group,
+    .btn-group-vertical {
+        display: block!important;
+        margin-top: 30px;
+    }
+    .btn-group-vertical>.btn,
+    .btn-group>.btn {
+        float: none;
+    }
+    .dropdown-menu {
+        left: 43.8%!important;
+    }
+    .play_video {
+        width: 100%;
+    }
+    .play_video img {
+        width: 32px!important;
+        display: inline-block;
+    }
+    .play_video p {
+        font-size: 10px!important;
+    }
+    .landing_bg_height {
+        height: 400px!important;
+    }
+    .start_width {
+        width: 360px!important;
+    }
+    .start_width img {
+        min-width: 350px!important;
+    }
+    .start_running {
+        top: 193px;
+        left: 199px!important;
+    }
+    #elvia_suryadi {
+        max-width: 33.30%!important;
+        min-width: 32%!important;
+        height: 280px!important;
+        background-position: center left!important;
+        display: inline-block!important;
+    }
+    #lim_jia_jie {
+        max-width: 33.30%!important;
+        min-width: 32%!important;
+        height: 280px!important;
+        background-position: center left!important;
+        display: inline-block!important;
+    }
+    #yeong_wai_mun {
+        max-width: 33.30%!important;
+        min-width: 32%!important;
+        height: 280px!important;
+        background-position: center left!important;
+        display: inline-block!important;
+    }
+	
+	 #danny {
+        max-width: 33.30%!important;
+        min-width: 32%!important;
+        height: 280px!important;
+        background-position: center left!important;
+        display: inline-block!important;
+    }
+	
+	 #tarnthip {
+        max-width: 33.30%!important;
+        min-width: 32%!important;
+        height: 280px!important;
+        background-position: center left!important;
+        display: inline-block!important;
+    }
+	
+	 #toto {
+        max-width: 33.30%!important;
+        min-width: 32%!important;
+        height: 280px!important;
+        background-position: center left!important;
+        display: inline-block!important;
+    }
+	
+		#danny_bio {	 
+		margin-top: 30px!important;
+        background-image:none!important;
+		background-color:#d61238;
+	}
+
+	#thanthip_bio {
+		margin-top: 30px!important;
+        background-image:none!important;
+		background-color:#d61238;
+	}
+
+	#toto_bio {
+		margin-top: 40px!important;
+		background-image:none!important;
+		background-color:#d61238;
+	}
+	
+    .start_running_content {
+        z-index: 1000;
+        background-color: #fabe28;
+        position: absolute;
+        margin-top: -820px;
+        background-image: none!important;
+		width: 100% !important;
+		margin-left: -14px;
+		padding-bottom: 60px;
+    }
+	
+    .start_cycling_content {
+        z-index: 1000;
+        background-color: #fabe28;
+        position: absolute;
+        margin-top: -94%;
+        background-image: none!important;
+		width: 100% !important;
+		margin-left: -14px;
+		padding-bottom: 60px;
+    }
+    .start_cycling_content img.image_center,
+    .start_trekking_content img.image_center,
+    .start_swimming_content img.image_center {
+        width: 205px;
+    }
+    .start_trekking_content {
+        z-index: 1000;
+        background-color: #fabe28;
+        position: absolute;
+        margin-top: -280px;
+		margin-left: -14px;
+        background-image: none!important;
+		padding-bottom: 60px;
+    }
+    .start_swimming_content {
+        z-index: 1000;
+        background-color: #fabe28;
+        position: absolute;
+        margin-top: 0px;
+		margin-left: -14px;
+        background-image: none!important;
+		padding-bottom: 60px;
+    }
+    .close_expand {
+        float: right;
+        position: absolute;
+        bottom: -60px;
+        right: 20px;
+        cursor: pointer;
+    }
+	.space_top{
+		padding-right:20px;
+	}
+    .all_for_text {
+        padding-right: 30px;
+    }
+	
+	.extra_mile_text{
+			padding-right: 30px;
+	}
+    .divider4 {
+        display: none;
+    }
+    #jj_bio {
+        background-position: center right!important;
+    }
+    #waimun_bio {
+        background-size: cover;
+        background-position: center right;
+    }
+    #elvia_bio {
+        background-position: center right!important;
+    }
+	/*#danny {
+        background-position: center right!important;
+    }*/
+    #toto {
+        background-size: cover;
+        background-position: center right;
+    }
+    #thanthip {
+        background-position: center right!important;
+    }
+    .landing_start_text {
+        position: absolute;
+        top: -250px;
+        left: 0;
+        width: 100%;
+    }
+    .play_button_wrapper {
+        top: 340px!important;
+    }
+    .background-video {
+        height: 480px!important;
+        overflow: hidden;
+        margin-top: -80px!important;
+    }
+    .placeholder-image {
+        height: 480px!important;
+    }
+    #padding_bottom {
+        padding-bottom: 60px!important;
+    }
+    .start_here_1366 {
+        display: none!important;
+        margin-top: 280px!important;
+    }
+    img.big_screen_image {
+        width: 400px;
+    }
+    .big_screen_image {
+        right: 0;
+        float: right;
+        margin-top: 240px!important;
+        display: block!important;
+    }
+    .plus_more_bio {
+        width: 180px!important;
+        height: 100px!important;
+        top: 160px!important;
+    }
+    .plus_more_bio img {
+        max-width: 100%;
+    }
+    .row_space {
+        padding-top: 50px!important;
+    }
+	
+	.small_device_center{
+		width:350px!important;
+		margin:0 auto;
+	}
+	
+	.smartb_trainer_text{
+		padding-top:0px;
+	}
+	
+	.smartb_margin{
+		margin-left:60px;
+	}
+}
+/* Localized */
